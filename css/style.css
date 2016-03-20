@@ -648,7 +648,7 @@ a {
   background: url("/img/codewars.png") center no-repeat #55cff8;
   border: 1px solid #55cff8;
 }
-#header .header-nav .social a.twitter:hover {
+#header .header-nav .social a.codewars:hover {
   border: 1px solid #24c1f6;
 }
 #header .header-nav .social a.linkedin {
