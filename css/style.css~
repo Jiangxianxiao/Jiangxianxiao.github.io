@@ -644,8 +644,8 @@ a {
 #header .header-nav .social a.google:hover {
   border: 1px solid #9c3019;
 }
-#header .header-nav .social a.codewars {
-  background: url("/img/codewars.png") center no-repeat #55cff8;
+#header .header-nav .social a.twitter {
+  background: url("/img/twitter.png") center no-repeat #55cff8;
   border: 1px solid #55cff8;
 }
 #header .header-nav .social a.twitter:hover {
