@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxianxiao.github.io/"/>
-  <updated>2016-03-28T11:41:49.058Z</updated>
+  <updated>2016-03-28T17:51:01.001Z</updated>
   <id>http://jiangxianxiao.github.io/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在不完善中前进</title>
+    <link href="http://jiangxianxiao.github.io/2016/03/29/%E5%9C%A8%E4%B8%8D%E5%AE%8C%E5%96%84%E4%B8%AD%E5%89%8D%E8%BF%9B/"/>
+    <id>http://jiangxianxiao.github.io/2016/03/29/在不完善中前进/</id>
+    <published>2016-03-28T17:01:24.000Z</published>
+    <updated>2016-03-28T17:51:01.001Z</updated>
+    
+    <content type="html">&lt;pre&gt;&lt;code&gt;第一篇博客，把它献给此刻躁动的自己吧。
+大三下一开始，就业的压力和对未来的迷茫接踵而至，整个人也变得紧迫起来，然而这种紧迫并不是良性的，更多的是心驰百里却行动迟缓导致的浮躁，好高鹜远，技术水平远不足以支撑内心的想法实现。
+另外，自己总是被各种边边角角的事情牵绊，比如桌子一旦乱了就不能安下心来写代码，总是想把blog的每一个细节都调优再上线却总是有新的问题出现等等。
+现在的想法，不管了，先上线再说。
+想起上个月翻到的两篇文章，一个是王东岳《知鱼之乐》的节选，追求完善的遗憾，《南风窗》2015年第四期；另一个是石破先生写的关于接受不完美的状态并持续前进的文章，找了半天没找到原文。大概是这两篇加强了我挣脱内心桎梏的力量吧。所以就干脆想先把博客凉出来，后续再慢慢优化去。
+而对即将到来的实习季和毕业，说实话自己还是挺紧张的。这学期开学才感觉时间不够用，练车，上课，找实习，丰富自己的项目库，每天都有一份长长的计划单，而每天都完不成。
+我是知道急躁的原因的，自己心里有个关于足彩复盘工具的项目的想法，但苦于时间紧迫和技术水平有限（这意味着我要重新拾取繁琐的android sdk 和 eclipse），另一方面是怕新的app出现占领市场，就像现在的猎球者一样。除此之外更多的就是实习和工作的事，经历和算法的能力还不能支撑自己去往心仪的公司，正在积累技术但有感于时间紧迫。最后是对未来的迷惘和不确定不安全感。
+索性就把这些都写出来好了，生活的形象就是这样的不完善。
+不过也还好啦。
+想起去年跟黄赞予踢球回来，聊到毕业之后的事，他无心说了句，你现在才大三，还有的是机会和时间呢，像我大四了才真的遗憾（然而他已经是拿了两个offer的出国狗了————话说现在的留学生水平有多水，看看周围出去的同学就知道了，当然不排除优秀的人，但是整体来说，这件事情本身已经是用经济水平衡量而不是知识能力水平来衡量的了————当然这并不能弥补我的缺憾和掩饰我的向往）。回归正题，这意味着现在觉醒并不算晚，而觉醒本身也已经足够可贵了，我要珍惜现在的状态，把心静下来，增加自己的持续性，把握好剩下的机会。
+在不完善中前进，权当自勉。
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code&gt;第一篇博客，把它献给此刻躁动的自己吧。
+大三下一开始，就业的压力和对未来的迷茫接踵而至，整个人也变得紧迫起来，然而这种紧迫并不是良性的，更多的是心驰百里却行动迟缓导致的浮躁，好高鹜远，技术水平远不足以支撑内心的想法实现。
+另外，自己总是被各种边边角角的事情牵
+    
+    </summary>
+    
+    
+      <category term="杂感" scheme="http://jiangxianxiao.github.io/tags/%E6%9D%82%E6%84%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>Passange4</title>
@@ -48,39 +81,8 @@
   
   <entry>
     <title>Passange2</title>
-    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E7%AC%AC5%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
-    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (第5个复件)/</id>
-    <published>2016-03-28T11:40:59.000Z</published>
-    <updated>2016-03-28T11:41:25.262Z</updated>
-    
-    <content type="html">&lt;p&gt;公司现在处于飞速发展中，由于业务需要每个岗位都需要更多的精英加盟， 无论你喜欢从大处着手（我们的系统需要处理上P的数据）还是从小处提高 （我们调整性能需要从毫秒入手）， 喜欢做底层技术（Spark，Shark，HBase，Hive，HDFS，JVM调优）还是做美丽的界面（HTML，CSS，AngularJS），抑或你是一个传说中的Full Stack Engineer，在这里都能找到你的位置。对于比较优秀的同学：星环科技会提供比BAT更有竞争力的薪资，另配含金量极高的期权。 &lt;/p&gt;
-&lt;p&gt;校园招聘招募流程&lt;br&gt;投递简历（网申\宣讲会）→笔试→技术面试→HR面→ offer →签订三方 →加入星环  &lt;/p&gt;
-&lt;p&gt;职位申请通道  &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;邮箱投递简历，跳过繁琐的网申，直达HR邮箱，简历投递至danhui.li@transwarp.io 邮件主题为“职位名称+姓名+学校” &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;参加校园宣讲会，现场提交简历 &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;武汉大学校园招聘宣讲会&lt;br&gt;时间: 10月22日周四上午9:30（宣讲+笔试）&lt;br&gt;宣讲会地点：武汉大学主校区就业中心卓越厅（信息学部一食堂2楼）  &lt;/p&gt;
-&lt;p&gt;武汉校园招聘QQ群: 221339492&lt;br&gt;PS: 申请职位可以申请2-3个，主要看自己的兴趣和合适哪个职位。&lt;br&gt;公司对于应届生更看重学生的计算机基础、算法、数据结构和快速学习能力，相关经验属于加分项。入职之后，公司会给每位新人配Buddy，让大家快速上手工作。&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;公司现在处于飞速发展中，由于业务需要每个岗位都需要更多的精英加盟， 无论你喜欢从大处着手（我们的系统需要处理上P的数据）还是从小处提高 （我们调整性能需要从毫秒入手）， 喜欢做底层技术（Spark，Shark，HBase，Hive，HDFS，JVM调优）还是做美丽的界面（H
-    
-    </summary>
-    
-    
-      <category term="biaoqianshishenme" scheme="http://jiangxianxiao.github.io/tags/biaoqianshishenme/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Passange2</title>
-    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E7%AC%AC12%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
-    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (第12个复件)/</id>
+    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E7%AC%AC10%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
+    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (第10个复件)/</id>
     <published>2016-03-28T11:40:59.000Z</published>
     <updated>2016-03-28T11:41:25.262Z</updated>
     
@@ -141,39 +143,8 @@
   
   <entry>
     <title>Passange2</title>
-    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
-    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (另一个复件)/</id>
-    <published>2016-03-28T11:40:59.000Z</published>
-    <updated>2016-03-28T11:41:25.262Z</updated>
-    
-    <content type="html">&lt;p&gt;公司现在处于飞速发展中，由于业务需要每个岗位都需要更多的精英加盟， 无论你喜欢从大处着手（我们的系统需要处理上P的数据）还是从小处提高 （我们调整性能需要从毫秒入手）， 喜欢做底层技术（Spark，Shark，HBase，Hive，HDFS，JVM调优）还是做美丽的界面（HTML，CSS，AngularJS），抑或你是一个传说中的Full Stack Engineer，在这里都能找到你的位置。对于比较优秀的同学：星环科技会提供比BAT更有竞争力的薪资，另配含金量极高的期权。 &lt;/p&gt;
-&lt;p&gt;校园招聘招募流程&lt;br&gt;投递简历（网申\宣讲会）→笔试→技术面试→HR面→ offer →签订三方 →加入星环  &lt;/p&gt;
-&lt;p&gt;职位申请通道  &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;邮箱投递简历，跳过繁琐的网申，直达HR邮箱，简历投递至danhui.li@transwarp.io 邮件主题为“职位名称+姓名+学校” &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;参加校园宣讲会，现场提交简历 &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;武汉大学校园招聘宣讲会&lt;br&gt;时间: 10月22日周四上午9:30（宣讲+笔试）&lt;br&gt;宣讲会地点：武汉大学主校区就业中心卓越厅（信息学部一食堂2楼）  &lt;/p&gt;
-&lt;p&gt;武汉校园招聘QQ群: 221339492&lt;br&gt;PS: 申请职位可以申请2-3个，主要看自己的兴趣和合适哪个职位。&lt;br&gt;公司对于应届生更看重学生的计算机基础、算法、数据结构和快速学习能力，相关经验属于加分项。入职之后，公司会给每位新人配Buddy，让大家快速上手工作。&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;公司现在处于飞速发展中，由于业务需要每个岗位都需要更多的精英加盟， 无论你喜欢从大处着手（我们的系统需要处理上P的数据）还是从小处提高 （我们调整性能需要从毫秒入手）， 喜欢做底层技术（Spark，Shark，HBase，Hive，HDFS，JVM调优）还是做美丽的界面（H
-    
-    </summary>
-    
-    
-      <category term="biaoqianshishenme" scheme="http://jiangxianxiao.github.io/tags/biaoqianshishenme/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Passange2</title>
-    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E7%AC%AC13%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
-    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (第13个复件)/</id>
+    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E7%AC%AC12%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
+    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (第12个复件)/</id>
     <published>2016-03-28T11:40:59.000Z</published>
     <updated>2016-03-28T11:41:25.262Z</updated>
     
@@ -234,6 +205,37 @@
   
   <entry>
     <title>Passange2</title>
+    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E7%AC%AC13%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
+    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (第13个复件)/</id>
+    <published>2016-03-28T11:40:59.000Z</published>
+    <updated>2016-03-28T11:41:25.262Z</updated>
+    
+    <content type="html">&lt;p&gt;公司现在处于飞速发展中，由于业务需要每个岗位都需要更多的精英加盟， 无论你喜欢从大处着手（我们的系统需要处理上P的数据）还是从小处提高 （我们调整性能需要从毫秒入手）， 喜欢做底层技术（Spark，Shark，HBase，Hive，HDFS，JVM调优）还是做美丽的界面（HTML，CSS，AngularJS），抑或你是一个传说中的Full Stack Engineer，在这里都能找到你的位置。对于比较优秀的同学：星环科技会提供比BAT更有竞争力的薪资，另配含金量极高的期权。 &lt;/p&gt;
+&lt;p&gt;校园招聘招募流程&lt;br&gt;投递简历（网申\宣讲会）→笔试→技术面试→HR面→ offer →签订三方 →加入星环  &lt;/p&gt;
+&lt;p&gt;职位申请通道  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;邮箱投递简历，跳过繁琐的网申，直达HR邮箱，简历投递至danhui.li@transwarp.io 邮件主题为“职位名称+姓名+学校” &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;参加校园宣讲会，现场提交简历 &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;武汉大学校园招聘宣讲会&lt;br&gt;时间: 10月22日周四上午9:30（宣讲+笔试）&lt;br&gt;宣讲会地点：武汉大学主校区就业中心卓越厅（信息学部一食堂2楼）  &lt;/p&gt;
+&lt;p&gt;武汉校园招聘QQ群: 221339492&lt;br&gt;PS: 申请职位可以申请2-3个，主要看自己的兴趣和合适哪个职位。&lt;br&gt;公司对于应届生更看重学生的计算机基础、算法、数据结构和快速学习能力，相关经验属于加分项。入职之后，公司会给每位新人配Buddy，让大家快速上手工作。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;公司现在处于飞速发展中，由于业务需要每个岗位都需要更多的精英加盟， 无论你喜欢从大处着手（我们的系统需要处理上P的数据）还是从小处提高 （我们调整性能需要从毫秒入手）， 喜欢做底层技术（Spark，Shark，HBase，Hive，HDFS，JVM调优）还是做美丽的界面（H
+    
+    </summary>
+    
+    
+      <category term="biaoqianshishenme" scheme="http://jiangxianxiao.github.io/tags/biaoqianshishenme/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Passange2</title>
     <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E7%AC%AC4%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
     <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (第4个复件)/</id>
     <published>2016-03-28T11:40:59.000Z</published>
@@ -265,8 +267,8 @@
   
   <entry>
     <title>Passange2</title>
-    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E7%AC%AC10%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
-    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (第10个复件)/</id>
+    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E5%A4%8D%E4%BB%B6)/"/>
+    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (复件)/</id>
     <published>2016-03-28T11:40:59.000Z</published>
     <updated>2016-03-28T11:41:25.262Z</updated>
     
@@ -451,8 +453,39 @@
   
   <entry>
     <title>Passange2</title>
-    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E5%A4%8D%E4%BB%B6)/"/>
-    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (复件)/</id>
+    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
+    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (另一个复件)/</id>
+    <published>2016-03-28T11:40:59.000Z</published>
+    <updated>2016-03-28T11:41:25.262Z</updated>
+    
+    <content type="html">&lt;p&gt;公司现在处于飞速发展中，由于业务需要每个岗位都需要更多的精英加盟， 无论你喜欢从大处着手（我们的系统需要处理上P的数据）还是从小处提高 （我们调整性能需要从毫秒入手）， 喜欢做底层技术（Spark，Shark，HBase，Hive，HDFS，JVM调优）还是做美丽的界面（HTML，CSS，AngularJS），抑或你是一个传说中的Full Stack Engineer，在这里都能找到你的位置。对于比较优秀的同学：星环科技会提供比BAT更有竞争力的薪资，另配含金量极高的期权。 &lt;/p&gt;
+&lt;p&gt;校园招聘招募流程&lt;br&gt;投递简历（网申\宣讲会）→笔试→技术面试→HR面→ offer →签订三方 →加入星环  &lt;/p&gt;
+&lt;p&gt;职位申请通道  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;邮箱投递简历，跳过繁琐的网申，直达HR邮箱，简历投递至danhui.li@transwarp.io 邮件主题为“职位名称+姓名+学校” &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;参加校园宣讲会，现场提交简历 &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;武汉大学校园招聘宣讲会&lt;br&gt;时间: 10月22日周四上午9:30（宣讲+笔试）&lt;br&gt;宣讲会地点：武汉大学主校区就业中心卓越厅（信息学部一食堂2楼）  &lt;/p&gt;
+&lt;p&gt;武汉校园招聘QQ群: 221339492&lt;br&gt;PS: 申请职位可以申请2-3个，主要看自己的兴趣和合适哪个职位。&lt;br&gt;公司对于应届生更看重学生的计算机基础、算法、数据结构和快速学习能力，相关经验属于加分项。入职之后，公司会给每位新人配Buddy，让大家快速上手工作。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;公司现在处于飞速发展中，由于业务需要每个岗位都需要更多的精英加盟， 无论你喜欢从大处着手（我们的系统需要处理上P的数据）还是从小处提高 （我们调整性能需要从毫秒入手）， 喜欢做底层技术（Spark，Shark，HBase，Hive，HDFS，JVM调优）还是做美丽的界面（H
+    
+    </summary>
+    
+    
+      <category term="biaoqianshishenme" scheme="http://jiangxianxiao.github.io/tags/biaoqianshishenme/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Passange2</title>
+    <link href="http://jiangxianxiao.github.io/2016/03/28/Passange2%20(%E7%AC%AC5%E4%B8%AA%E5%A4%8D%E4%BB%B6)/"/>
+    <id>http://jiangxianxiao.github.io/2016/03/28/Passange2 (第5个复件)/</id>
     <published>2016-03-28T11:40:59.000Z</published>
     <updated>2016-03-28T11:41:25.262Z</updated>
     
