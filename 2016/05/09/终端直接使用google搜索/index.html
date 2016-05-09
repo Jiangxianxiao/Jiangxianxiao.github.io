@@ -6,10 +6,10 @@
   <title>终端直接使用google搜索 | j2x&#39;s blog</title>
   <meta name="author" content="Jiangxianxiao">
   
-  <meta name="description" content="最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：
--在已添加至PATH的目录，如/user/bin/，下新建文件google-输入代码：
-#!/bin/bash
-if [ ! -n &amp;quo">
+  <meta name="description" content="&amp;emsp;最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：
+
+在已添加至PATH的目录，如/user/bin/，下新建文件google
+输入代码：  #!/bin/bash  if [ !">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -99,18 +99,15 @@ if [ ! -n &amp;quo">
 					
 
 					<div class="article-content">
-						<p>最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：</p>
-<p>-在已添加至PATH的目录，如/user/bin/，下新建文件google<br>-输入代码：</p>
-<pre><code>#!/bin/bash
-if [ ! -n &quot;$1&quot; ]; then
-xdg-open http://www.google.com.hk
-fi
-
-if [ -n $1 ] ; then
-xdg-open http://www.google.com.hk/search?q=$1;
-fi
-</code></pre><p>-chmod +x添加可执行权限</p>
-<p>&amp;emsp 这样就可以实现终端搜索了，比如输入 google 英超，浏览器自动打开并执行搜索结果，同理也可以设置baidu、bing等。 </p>
+						<p>&emsp;最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：</p>
+<ul>
+<li>在已添加至PATH的目录，如/user/bin/，下新建文件google</li>
+<li><p>输入代码：<br>  #!/bin/bash<br>  if [ ! -n “$1” ]; then<br>  xdg-open <a href="http://www.google.com.hk" target="_blank" rel="external">http://www.google.com.hk</a><br>  fi</p>
+<p>  if [ -n $1 ] ; then<br>  xdg-open <a href="http://www.google.com.hk/search?q=$1" target="_blank" rel="external">http://www.google.com.hk/search?q=$1</a>;<br>  fi</p>
+</li>
+<li>chmod +x添加可执行权限</li>
+</ul>
+<p>&emsp;这样就可以实现终端搜索了，比如输入 google 英超，浏览器自动打开并执行搜索结果，同理也可以设置baidu、bing等。 </p>
 
 					</div>
 
