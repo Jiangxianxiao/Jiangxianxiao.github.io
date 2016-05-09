@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxianxiao.github.io/"/>
-  <updated>2016-05-09T16:45:35.545Z</updated>
+  <updated>2016-05-09T16:49:43.657Z</updated>
   <id>http://jiangxianxiao.github.io/</id>
   
   <author>
@@ -20,13 +20,13 @@
     <link href="http://jiangxianxiao.github.io/2016/05/09/%E7%BB%88%E7%AB%AF%E7%9B%B4%E6%8E%A5%E4%BD%BF%E7%94%A8google%E6%90%9C%E7%B4%A2/"/>
     <id>http://jiangxianxiao.github.io/2016/05/09/终端直接使用google搜索/</id>
     <published>2016-05-09T15:54:34.000Z</published>
-    <updated>2016-05-09T16:45:35.545Z</updated>
+    <updated>2016-05-09T16:49:43.657Z</updated>
     
     <content type="html">&lt;p&gt;&amp;emsp;&amp;emsp;最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在已添加至PATH的目录，如/user/bin/，下新建文件google&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;输入代码：&lt;br&gt;  #!/bin/bash&lt;br&gt;  if [ ! -n “$1” ]; then&lt;br&gt;  xdg-open &lt;a href=&quot;http://www.google.com.hk&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.google.com.hk&lt;/a&gt;&lt;br&gt;  fi&lt;/p&gt;
-&lt;p&gt;  if [ -n $1 ] ; then&lt;br&gt;  xdg-open &lt;a href=&quot;http://www.google.com.hk/search?q=$1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.google.com.hk/search?q=$1&lt;/a&gt;;&lt;br&gt;  fi&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;输入代码：&lt;br&gt;  `#!/bin/bash&lt;br&gt;  if [ ! -n “$1” ]; then&lt;br&gt;  xdg-open &lt;a href=&quot;http://www.google.com.hk&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.google.com.hk&lt;/a&gt;&lt;br&gt;  fi&lt;/p&gt;
+&lt;p&gt;  if [ -n $1 ] ; then&lt;br&gt;  xdg-open &lt;a href=&quot;http://www.google.com.hk/search?q=$1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.google.com.hk/search?q=$1&lt;/a&gt;;&lt;br&gt;  fi`&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;chmod +x添加可执行权限&lt;/li&gt;
 &lt;/ul&gt;
