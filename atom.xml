@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxianxiao.github.io/"/>
-  <updated>2016-05-09T16:19:29.284Z</updated>
+  <updated>2016-05-09T16:24:02.812Z</updated>
   <id>http://jiangxianxiao.github.io/</id>
   
   <author>
@@ -20,10 +20,10 @@
     <link href="http://jiangxianxiao.github.io/2016/05/09/%E7%BB%88%E7%AB%AF%E7%9B%B4%E6%8E%A5%E4%BD%BF%E7%94%A8google%E6%90%9C%E7%B4%A2/"/>
     <id>http://jiangxianxiao.github.io/2016/05/09/终端直接使用google搜索/</id>
     <published>2016-05-09T15:54:34.000Z</published>
-    <updated>2016-05-09T16:19:29.284Z</updated>
+    <updated>2016-05-09T16:24:02.812Z</updated>
     
-    <content type="html">&lt;p&gt;&amp;amp;emsp最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：&lt;/p&gt;
-&lt;p&gt;-在已添加至PATH的目录，如/user/bin/，下新建文件google&lt;br&gt;-输入代码：&lt;/p&gt;
+    <content type="html">&lt;pre&gt;&lt;code&gt;最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;-在已添加至PATH的目录，如/user/bin/，下新建文件google&lt;br&gt;-输入代码：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;#!/bin/bash
 if [ ! -n &amp;quot;$1&amp;quot; ]; then
 xdg-open http://www.google.com.hk
@@ -38,8 +38,8 @@ fi
     
     <summary type="html">
     
-      &lt;p&gt;&amp;amp;emsp最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：&lt;/p&gt;
-&lt;p&gt;-在已添加至PATH的目录，如/user/bin/，下新建文件google&lt;br&gt;
+      &lt;pre&gt;&lt;code&gt;最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;-在已添加至PATH的目录，如/user/bin/，下新建文件go
     
     </summary>
     

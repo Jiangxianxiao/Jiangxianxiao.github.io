@@ -6,10 +6,10 @@
   <title>终端直接使用google搜索 | j2x&#39;s blog</title>
   <meta name="author" content="Jiangxianxiao">
   
-  <meta name="description" content="&amp;amp;emsp最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：
+  <meta name="description" content="最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：
 -在已添加至PATH的目录，如/user/bin/，下新建文件google-输入代码：
 #!/bin/bash
-if [ ">
+if [ ! -n &amp;quo">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -99,8 +99,8 @@ if [ ">
 					
 
 					<div class="article-content">
-						<p>&amp;emsp最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：</p>
-<p>-在已添加至PATH的目录，如/user/bin/，下新建文件google<br>-输入代码：</p>
+						<pre><code>最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：
+</code></pre><p>-在已添加至PATH的目录，如/user/bin/，下新建文件google<br>-输入代码：</p>
 <pre><code>#!/bin/bash
 if [ ! -n &quot;$1&quot; ]; then
 xdg-open http://www.google.com.hk
