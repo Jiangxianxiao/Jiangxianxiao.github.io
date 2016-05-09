@@ -99,8 +99,8 @@ if [ ! -n &amp;quo">
 					
 
 					<div class="article-content">
-						<pre><code>最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：
-</code></pre><p>-在已添加至PATH的目录，如/user/bin/，下新建文件google<br>-输入代码：</p>
+						<p>最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：</p>
+<p>-在已添加至PATH的目录，如/user/bin/，下新建文件google<br>-输入代码：</p>
 <pre><code>#!/bin/bash
 if [ ! -n &quot;$1&quot; ]; then
 xdg-open http://www.google.com.hk
@@ -110,7 +110,7 @@ if [ -n $1 ] ; then
 xdg-open http://www.google.com.hk/search?q=$1;
 fi
 </code></pre><p>-chmod +x添加可执行权限</p>
-<p>&amp;emsp这样就可以实现终端搜索了，比如输入 google 英超，浏览器自动打开并执行搜索结果，同理也可以设置baidu、bing等。 </p>
+<p>&amp;emsp 这样就可以实现终端搜索了，比如输入 google 英超，浏览器自动打开并执行搜索结果，同理也可以设置baidu、bing等。 </p>
 
 					</div>
 
