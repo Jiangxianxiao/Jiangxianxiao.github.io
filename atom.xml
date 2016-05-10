@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxianxiao.github.io/"/>
-  <updated>2016-05-09T16:52:32.780Z</updated>
+  <updated>2016-05-10T01:53:22.577Z</updated>
   <id>http://jiangxianxiao.github.io/</id>
   
   <author>
@@ -14,6 +14,77 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git常用命令</title>
+    <link href="http://jiangxianxiao.github.io/2016/05/10/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://jiangxianxiao.github.io/2016/05/10/git常用命令/</id>
+    <published>2016-05-10T01:08:14.000Z</published>
+    <updated>2016-05-10T01:53:22.577Z</updated>
+    
+    <content type="html">&lt;ol&gt;
+&lt;li&gt;创建版本库 git init&lt;/li&gt;
+&lt;li&gt;添加文件到版本库 git add &lt;file&gt;&lt;/file&gt;&lt;/li&gt;
+&lt;li&gt;提交文件 git commit -m &amp;lt;说明&amp;gt;&lt;/li&gt;
+&lt;li&gt;查看状态 git status&lt;/li&gt;
+&lt;li&gt;查看比较结果 git diff&lt;/li&gt;
+&lt;li&gt;查看历史记录 git log&lt;/li&gt;
+&lt;li&gt;查看历史命令 git reflog&lt;/li&gt;
+&lt;li&gt;丢弃工作区修改 git checkout –file&lt;/li&gt;
+&lt;li&gt;丢弃缓存区添加 git reset HEAD file&lt;/li&gt;
+&lt;li&gt;从版本库删除 git rm&lt;/li&gt;
+&lt;li&gt;推送当前分支致远程 git push [-u 关联本地与远程分支] [远程分支] [本地分支]&lt;/li&gt;
+&lt;li&gt;关联远程库 git remote add origin git@server-name:path/repo-name.git&lt;/li&gt;
+&lt;li&gt;克隆远程库 git clone&lt;/li&gt;
+&lt;li&gt;分支:&lt;ul&gt;
+&lt;li&gt;查看分支 git branch&lt;/li&gt;
+&lt;li&gt;创建分支 git branch &lt;name&gt;&lt;/name&gt;&lt;/li&gt;
+&lt;li&gt;切换分支 git checkout &lt;name&gt;&lt;/name&gt;&lt;/li&gt;
+&lt;li&gt;创建并切换分支 git checkout -b &lt;name&gt;&lt;/name&gt;&lt;/li&gt;
+&lt;li&gt;合并分支到当前分支 git merge &lt;name&gt;&lt;/name&gt;&lt;/li&gt;
+&lt;li&gt;删除分支 git branch -d &lt;name&gt;&lt;/name&gt;&lt;/li&gt;
+&lt;li&gt;强行删除 git branch -D &lt;name&gt;&lt;/name&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;查看分支合并图 git log –graph&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;暂存工作空间 git stash&lt;/li&gt;
+&lt;li&gt;取回工作空间 git stash pop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;远程库操作:&lt;ul&gt;
+&lt;li&gt;查看信息 git remote -v&lt;/li&gt;
+&lt;li&gt;抓取分支 git pull&lt;/li&gt;
+&lt;li&gt;本地创建对应的远程分支 git checkout -b branch-name origin/branch-name&lt;/li&gt;
+&lt;li&gt;建立本地分支与远程关联 git branch –set-upstream branch-name origin/branch-name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;标签:&lt;ul&gt;
+&lt;li&gt;查看 git tag&lt;/li&gt;
+&lt;li&gt;打标签 git tag &lt;name&gt;&lt;/name&gt;&lt;/li&gt;
+&lt;li&gt;查看标签信息 git show &lt;tagname&gt;&lt;/tagname&gt;&lt;/li&gt;
+&lt;li&gt;推送远程标签 git push origin &lt;tagname&gt;&lt;/tagname&gt;&lt;/li&gt;
+&lt;li&gt;删除远程标签 git push origin :refs/tags/&lt;tagname&gt;&lt;/tagname&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;创建版本库 git init&lt;/li&gt;
+&lt;li&gt;添加文件到版本库 git add &lt;file&gt;&lt;/file&gt;&lt;/li&gt;
+&lt;li&gt;提交文件 git commit -m &amp;lt;说明&amp;gt;&lt;/li&gt;
+&lt;li&gt;查看状态 git status&lt;/li&gt;
+&lt;li&gt;查看比
+    
+    </summary>
+    
+    
+      <category term="git" scheme="http://jiangxianxiao.github.io/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>终端直接使用google搜索</title>
