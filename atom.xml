@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangxianxiao.github.io/"/>
-  <updated>2016-05-10T01:53:22.577Z</updated>
+  <updated>2016-05-10T01:56:03.773Z</updated>
   <id>http://jiangxianxiao.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://jiangxianxiao.github.io/2016/05/10/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>http://jiangxianxiao.github.io/2016/05/10/git常用命令/</id>
     <published>2016-05-10T01:08:14.000Z</published>
-    <updated>2016-05-10T01:53:22.577Z</updated>
+    <updated>2016-05-10T01:56:03.773Z</updated>
     
     <content type="html">&lt;ol&gt;
 &lt;li&gt;创建版本库 git init&lt;/li&gt;
@@ -47,7 +47,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;查看分支合并图 git log –graph&lt;/li&gt;
-&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;暂停:&lt;ul&gt;
 &lt;li&gt;暂存工作空间 git stash&lt;/li&gt;
 &lt;li&gt;取回工作空间 git stash pop&lt;/li&gt;
 &lt;/ul&gt;
