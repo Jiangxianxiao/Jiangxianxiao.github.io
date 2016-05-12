@@ -1,206 +1,337 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   
   <title>j2x&#39;s blog</title>
-  <meta name="author" content="Jiangxianxiao">
-  
-  
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="j2x's blog">
+<meta property="og:url" content="http://jiangxianxiao.github.io/index.html">
+<meta property="og:site_name" content="j2x's blog">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="j2x's blog">
+<meta name="twitter:description">
   
-  <meta property="og:site_name" content="j2x&#39;s blog"/>
-
+    <link rel="alternate" href="/atom.xml" title="j2x&#39;s blog" type="application/atom+xml">
   
   
-    <link href="/img/green.ico" rel="icon">
+    <link rel="icon" href="/favicon.png">
   
-
-  <link rel="stylesheet" href="//apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" media="screen" type="text/css">
-
-  <link rel="stylesheet" href="//apps.bdimg.com/libs/bootstrap-material/0.3.0/css/ripples.min.css" media="screen" type="text/css">
-
-	<link rel="stylesheet" href="//apps.bdimg.com/libs/bootstrap-material/0.3.0/css/material.min.css" media="screen" type="text/css">
-
-  <link rel="stylesheet" href="/css/highlight.light.css" media="screen" type="text/css">
-
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-
-
-  <script src="//apps.bdimg.com/libs/jquery/2.0.3/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="/libs/jquery-2.0.3.min.js" type="text/javascript"><\/script>')</script>
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
 
 </head>
- 	<body>
-	  <nav class="navbar navbar-default">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">菜单</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">j2x&#39;s blog</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                
-                <li>
-                    <a href="/" title="">
-                    <i class=""></i>首页
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="/archives" title="">
-                    <i class=""></i>归档
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="/tags" title="">
-                    <i class=""></i>标签
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="/about" title="">
-                    <i class=""></i>关于
-                    </a>
-                </li>
-                
-            </ul>
-        </div>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">j2x&#39;s blog</a>
+      </h1>
+      
     </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://jiangxianxiao.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-git常用命令" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/05/10/git常用命令/" class="article-date">
+  <time datetime="2016-05-10T01:08:14.000Z" itemprop="datePublished">2016-05-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/05/10/git常用命令/">git常用命令</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ol>
+<li>创建版本库 git init</li>
+<li>添加文件到版本库 git add <file></file></li>
+<li>提交文件 git commit -m &lt;说明&gt;</li>
+<li>查看状态 git status</li>
+<li>查看比较结果 git diff</li>
+<li>查看历史记录 git log</li>
+<li>查看历史命令 git reflog</li>
+<li>丢弃工作区修改 git checkout –file</li>
+<li>丢弃缓存区添加 git reset HEAD file</li>
+<li>从版本库删除 git rm</li>
+<li>推送当前分支致远程 git push [-u 关联本地与远程分支] [远程分支] [本地分支]</li>
+<li>关联远程库 git remote add origin git@server-name:path/repo-name.git</li>
+<li>克隆远程库 git clone</li>
+<li>分支:<ul>
+<li>查看分支 git branch</li>
+<li>创建分支 git branch <name></name></li>
+<li>切换分支 git checkout <name></name></li>
+<li>创建并切换分支 git checkout -b <name></name></li>
+<li>合并分支到当前分支 git merge <name></name></li>
+<li>删除分支 git branch -d <name></name></li>
+<li>强行删除 git branch -D <name></name></li>
+</ul>
+</li>
+<li>查看分支合并图 git log –graph</li>
+<li>暂停:<ul>
+<li>暂存工作空间 git stash</li>
+<li>取回工作空间 git stash pop</li>
+</ul>
+</li>
+<li>远程库操作:<ul>
+<li>查看信息 git remote -v</li>
+<li>抓取分支 git pull</li>
+<li>本地创建对应的远程分支 git checkout -b branch-name origin/branch-name</li>
+<li>建立本地分支与远程关联 git branch –set-upstream branch-name origin/branch-name</li>
+</ul>
+</li>
+<li>标签:<ul>
+<li>查看 git tag</li>
+<li>打标签 git tag <name></name></li>
+<li>查看标签信息 git show <tagname></tagname></li>
+<li>推送远程标签 git push origin <tagname></tagname></li>
+<li>删除远程标签 git push origin :refs/tags/<tagname></tagname></li>
+</ul>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://jiangxianxiao.github.io/2016/05/10/git常用命令/" data-id="cio3lmkmd0001gnpxnx5sn13u" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-终端直接使用google搜索" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/05/09/终端直接使用google搜索/" class="article-date">
+  <time datetime="2016-05-09T15:54:34.000Z" itemprop="datePublished">2016-05-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/05/09/终端直接使用google搜索/">终端直接使用google搜索</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&emsp;&emsp;最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：</p>
+<ul>
+<li>在已添加至PATH的目录，如/user/bin/，下新建文件google</li>
+<li><p>输入代码：</p>
+<pre><code>#!/bin/bash
+if [ ! -n &quot;$1&quot; ]; then
+xdg-open http://www.google.com.hk
+fi
+
+if [ -n $1 ] ; then
+xdg-open http://www.google.com.hk/search?q=$1;
+fi
+</code></pre></li>
+<li>chmod +x添加可执行权限</li>
+</ul>
+<p>&emsp;&emsp;这样就可以实现终端搜索了，比如输入 google 英超，浏览器自动打开并执行搜索结果，同理也可以设置baidu、bing等。 </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://jiangxianxiao.github.io/2016/05/09/终端直接使用google搜索/" data-id="cio3lmkms0005gnpxob9jqeyz" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/shell-技术/">shell 技术</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-在不完善中前进" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/03/29/在不完善中前进/" class="article-date">
+  <time datetime="2016-03-28T17:01:24.000Z" itemprop="datePublished">2016-03-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/03/29/在不完善中前进/">在不完善中前进</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&emsp;&emsp;第一篇博客，把它献给此刻躁动的自己吧。<br>&emsp;&emsp;大三下一开始，就业的压力和对未来的迷茫接踵而至，整个人也变得紧迫起来，然而这种紧迫并不是良性的，更多的是心驰百里却行动迟缓导致的浮躁，好高鹜远，技术水平远不足以支撑内心的想法实现。<br>&emsp;&emsp;另外，自己总是被各种边边角角的事情牵绊，比如桌子一旦乱了就不能安下心来写代码，总是想把blog的每一个细节都调优再上线却总是有新的问题出现等等。<br>&emsp;&emsp;现在的想法，不管了，先上线再说。<br>&emsp;&emsp;想起上个月翻到的两篇文章，一个是王东岳《知鱼之乐》的节选，追求完善的遗憾，《南风窗》2015年第四期；另一个是石破先生写的关于接受不完美的状态并持续前进的文章，找了半天没找到原文。大概是这两篇加强了我挣脱内心桎梏的力量吧。所以就干脆想先把博客凉出来，后续再慢慢优化去。<br>&emsp;&emsp;而对即将到来的实习季和毕业，说实话自己还是挺紧张的。这学期开学才感觉时间不够用，练车，上课，找实习，丰富自己的项目库，每天都有一份长长的计划单，而每天都完不成。<br>&emsp;&emsp;我是知道急躁的原因的，自己心里有个关于足彩复盘工具的项目的想法，但苦于时间紧迫和技术水平有限（这意味着我要重新拾取繁琐的android sdk 和 eclipse），另一方面是怕新的app出现占领市场，就像现在的猎球者一样。除此之外更多的就是实习和工作的事，经历和算法的能力还不能支撑自己去往心仪的公司，正在积累技术但有感于时间紧迫。最后是对未来的迷惘和不确定不安全感。<br>&emsp;&emsp;索性就把这些都写出来好了，生活的形象就是这样的不完善。<br>&emsp;&emsp;不过也还好啦。<br>&emsp;&emsp;想起去年跟黄赞予踢球回来，聊到毕业之后的事，他无心说了句，你现在才大三，还有的是机会和时间呢，像我大四了才真的遗憾（然而他已经是拿了两个offer的出国狗了）。回归正题，这意味着现在觉醒并不算晚，而觉醒本身也已经足够可贵了，我要珍惜现在的状态，把心静下来，增加自己的持续性，把握好剩下的机会。<br>&emsp;&emsp;在不完善中前进，权当自勉。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://jiangxianxiao.github.io/2016/03/29/在不完善中前进/" data-id="cio3lmkmm0003gnpxr2acdgq3" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/杂感/">杂感</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shell-技术/">shell 技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/杂感/">杂感</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/shell-技术/" style="font-size: 10px;">shell 技术</a> <a href="/tags/杂感/" style="font-size: 10px;">杂感</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/05/10/git常用命令/">git常用命令</a>
+          </li>
+        
+          <li>
+            <a href="/2016/05/09/终端直接使用google搜索/">终端直接使用google搜索</a>
+          </li>
+        
+          <li>
+            <a href="/2016/03/29/在不完善中前进/">在不完善中前进</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 Jiangxianxiao<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
 </nav>
-
-	  <div class="container" >
-	    <div class="row">
-	
-	<div class="col-md-9">
-	
-
-		<div class="content">
-			<!-- index -->
-		   
-				
-		            <div class="index-item-wrapper">
-		              <h3>
-		                <a class="post-title" href="/2016/05/10/git常用命令/">git常用命令</a>
-		              </h3>
-									<span class="post-time">2016-05-10</span>
-		              <div class="excerpt"></div>
-		              
-		            </div>
-				
-		            <div class="index-item-wrapper">
-		              <h3>
-		                <a class="post-title" href="/2016/05/09/终端直接使用google搜索/">终端直接使用google搜索</a>
-		              </h3>
-									<span class="post-time">2016-05-09</span>
-		              <div class="excerpt"></div>
-		              
-		            </div>
-				
-		            <div class="index-item-wrapper">
-		              <h3>
-		                <a class="post-title" href="/2016/03/29/在不完善中前进/">在不完善中前进</a>
-		              </h3>
-									<span class="post-time">2016-03-29</span>
-		              <div class="excerpt"></div>
-		              
-		            </div>
-				
-				<!-- archives -->
-			  
-		</div>
-
-		<!-- pagination -->
-	        
-	</div>
-
-	
-		<div class="col-md-3">
-			<div id="sidebar">
-		</div>
-			
-					
-<div class="widget">
-  <h4>最新文章</h4>
-  <ul class="entry list-unstyled">
     
-      <li>
-        <a href="/2016/05/10/git常用命令/"  > <i class="mdi-editor-insert-drive-file"></i>git常用命令</a>
-      </li>
-    
-      <li>
-        <a href="/2016/05/09/终端直接使用google搜索/"  > <i class="mdi-editor-insert-drive-file"></i>终端直接使用google搜索</a>
-      </li>
-    
-      <li>
-        <a href="/2016/03/29/在不完善中前进/"  > <i class="mdi-editor-insert-drive-file"></i>在不完善中前进</a>
-      </li>
-    
-  </ul>
-</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-				
-					
-<div class="widget">
-	<h4>链接</h4>
-	<ul class="blogroll list-unstyled">
-	
-		<li> <a href="https://www.github.com/jiangxianxiao" title="GitHub" target="_blank"> <i class="mdi-action-launch"></i> GitHub</a></li>
-	
-		<li> <a href="http://www.codewars.com/users/Jiang%20Xianxiao" title="CodeWars" target="_blank"> <i class="mdi-action-launch"></i> CodeWars</a></li>
-	
-		<li> <a href="mailto:xxdjango99@gmail.com" title="xxdjango99@gmail.com" target="_blank"> <i class="mdi-action-launch"></i> 邮箱</a></li>
-	
-		<li> <a href="/atom.xml" title="RSS" target="_blank"> <i class="mdi-action-launch"></i> RSS</a></li>
-	
-	</ul>
-</div>
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-				
-			</div>
-	
+<script src="/js/script.js"></script>
 
-</div>
-
-
-		<footer>
-			
-
-<p>
-   
-</p>
-<p>
-  &copy; 2016 <a href="http://jiangxianxiao.github.io"> Jiangxianxiao </a>&nbsp&nbsp&nbspPowered by <a href="https://hexo.io">hexo</a>
-</p>
-<a id="gotop" href="#" title="back to top"><i class="mdi-hardware-keyboard-arrow-up"></i></a>
-
-		</footer>
-	  </div>
-
-		<!--    <!-- <script src="/libs/bs/js/bootstrap.min.js"></script> -->
-		<script src="//apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-		<script>(typeof $().modal == 'function')|| document.write('<script src="/libs/bs/js/bootstrap.min.js" type="text/javascript"><\/script>')</script>
-
-		<!-- material design -->
-		<!-- <script src="/libs/bs-material/js/ripples.min.js"></script> -->
-		<script src="//apps.bdimg.com/libs/bootstrap-material/0.3.0/js/ripples.min.js"></script>
-		<!-- <script src="/libs/bs-material/js/material.min.js"></script> -->
-		<script src="//apps.bdimg.com/libs/bootstrap-material/0.3.0/js/material.min.js"></script>
-		<!-- toc -->
-		<!-- <script src="/libs/tocify/jquery-ui.min.js"></script> -->
-		<script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-
-
-		<script src="/js/main.js"></script>
-
-	</body>
+  </div>
+</body>
 </html>
