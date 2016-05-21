@@ -91,7 +91,35 @@ if">
 
 		<div class="content">                   
 		   
-					查无此页
+
+			  		<h2>终端直接使用google搜索</h2>
+					
+					<div>
+						<span class="post-time">2016-05-09 23:54:34</span>
+					</div>	
+					
+
+					<div class="article-content">
+						<p>&emsp;&emsp;最近在使用终端的过程中时常有google需求，而打开浏览器搜索显然比较繁琐，本着程序员偷懒的原则，想直接在终端发起搜索，利用xdg-open，实现起来很简单：</p>
+<ul>
+<li>在已添加至PATH的目录，如/user/bin/，下新建文件google</li>
+<li><p>输入代码：</p>
+<pre><code>#!/bin/bash
+if [ ! -n &quot;$1&quot; ]; then
+xdg-open http://www.google.com.hk
+fi
+
+if [ -n $1 ] ; then
+xdg-open http://www.google.com.hk/search?q=$1;
+fi
+</code></pre></li>
+<li>chmod +x添加可执行权限</li>
+</ul>
+<p>&emsp;&emsp;这样就可以实现终端搜索了，比如输入 google 英超，浏览器自动打开并执行搜索结果，同理也可以设置baidu、bing等。 </p>
+
+					</div>
+
+			  <!-- about -->
 			  
 		</div>
                 
